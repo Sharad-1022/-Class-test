@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Project</title>
+    <script src="https://kit.fontawesome.com/5a65c98243.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        section{
+            display:flex;
+        }
+        .container{
+            background-color:RGB(60, 65, 64);
+            height:110vh;
+            flex:1;
+        }
+        section .first-half{
+            height:200px;
+            width:250px;
+            background-color:cyan;
+            padding-top: 10px;
+            padding-left:5px;
+        }
+        .first-half img{
+            border-radius: 100%;
+            width:100px;
+            height:105px;
+            margin-bottom:-15px;
+            margin-left:60px;
+        }
+        .first-half h1{
+            text-align:center;
+            color:darkslategray;
+        }
+        .first-half p{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size:small;
+            font-weight:550;
+            text-align:center;
+            color:darkslategray;
+        }
+        .contact{
+            padding-top:10px;
+            padding-left:5px;
+        }
+        h1{
+            border-bottom: 3px solid darkslategray;
+        }
+        h2{
+            border-bottom: 3px solid white;
+        }
+        h2 i{
+            color:RGB(86, 199, 233);
+            margin-right:5px;
+            margin-left:25px;
+        }
+        .contact span{
+            color:aliceblue;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .contact-details{
+            display:flex;
+        }
+        .contact-details i{
+            color:aliceblue;
+            margin-right:20px;
+            margin-top:8px;
+            margin-left:25px;
+        }
+        .contact-details pre{
+            color:lightgray;
+            font-weight:600
+        }
+        .mbr{
+        margin-bottom:20px;
+        margin-top:20px;
+        }
+        .education span{
+            color:aliceblue;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .educational-details{
+            display:flex;
+        }
+        .educational-details i{
+            color:aliceblue;
+            margin-left:25px;
+        }
+        .educational-details pre{
+          margin-left:-100px;
+        }
+        .language ul{
+            margin-left:40px;
+            margin-top:25px;
+            line-height:2;
+            margin-right:3px;
+        }
+        .language span{
+            color:aliceblue;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .language-desc{
+            display:flex;
+        }
+        .language-item2{
+            line-height:2;
+            margin-top:35px;
+        }
+        .col{
+           height:3px;
+           width:80px;
+           border:1px solid black;
+           border-radius:15%;
+        }
+        .eng-percentage{
+            height:3px;
+            width:70px;
+            background-color: lightblue;
+            border-radius:15%;
+        }
+        .spa-percentage{
+            height:3px;
+            width:55px;
+            background-color: lightblue;
+            border-radius:15%;
+        }
+        .indo-percentage{
+            height:3px;
+            width:40px;
+            background-color: lightblue;
+            border-radius:15%;
+        }
+        .container2{
+            background-color: aliceblue;
+            height:100vh;
+            width:55vw;
+            padding-left:15px;
+            padding-right:20px;
+        }
+        .second-half i{
+            color: lightblue;
+            margin-top:15px;
+            margin-right:15px;
+        }
+        .second-half span{
+          color:darkslategrey;
+
+        }
+        .work-experience-list{
+            display:flex;
+            justify-content:space-between;
+        }
+        .des p{
+            text-align:justify;
+            margin-left:25px;
+            margin-right:10px;
+        }
+        .skill{
+            display:flex;
+            justify-content:space-around
+        }
+        .skill-name span{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .skill-column{
+            height:3px;
+            width:170px;
+            border:1px solid black;
+            border-radius:10px;
+            margin-top:2px; 
+        }
+        .skill-percentage{
+           height:4px;
+           width:50%;
+           background-color:rgba(0, 0, 255, 0.733);
+        }
+    </style>
+</head>
+<body>
+    <div class="par" style="display: flex;">
+    <section>
+        <div class="container">
+         <div class="first-half">
+            <img src="download.jfif" alt="image"><br><br>
+            <h1>
+                HARPER RUSSO
+            </h1>
+            <P>GRAPHIC DESIGNER</P>
+         </div>
+         <div class="contact">
+            <h2>
+                <span>
+                    <i class="fa-solid fa-image-portrait">
+                    </i>
+                </span>
+                <span>
+                    CONTACT
+                </span>
+            </h2> 
+            <span class="contact-details mbr">
+               <span><i class="fa-solid fa-phone-volume"></i></span>
+               <span>
+               <p>Phone</p>
+               <pre>123-456-7890</pre>
+               </span>
+            </span>
+            <span class="contact-details mbr">
+              <span>
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              <span>
+                <p>Emails</p>
+                <pre>hello@really.com</pre>
+              </span>
+            </span> 
+            <span class="contact-details mbr">
+                <span>
+                <i class="fa-solid fa-house-chimney"></i>
+                </span>
+                <span>
+                <p>Address</p>
+                <pre>123 Anywhere city</pre>
+              </span>
+           </span>
+        </div>  
+        <div class="education">
+           <h2>
+              <span>
+                <i class="fa-solid fa-book-open"></i>
+              </span>
+              <span>
+                Education
+              </span>
+            </h2>
+           <span class="educational-details mbr">
+             <span>
+                <i class="fa-thin fa-star"></i>
+             </span>
+            <span>
+              <pre>
+                2005-2009
+                Bachlor Of Design
+                fauget University
+              </pre>
+            </span>
+           </span>
+           <span class="educational-details mbr">
+            <span>
+               <i class="fa-thin fa-star"></i>
+            </span>
+           <span>
+             <pre>
+                2005-2009
+                Bachlor Of Design
+                fauget University
+             </pre>
+           </span>
+         </span>
+        </div> 
+        <div class="language">
+            <h2>
+                <span>
+                    <i class="fa-solid fa-earth-americas"></i>
+                </span>
+                <span>
+                    Language
+                </span>
+            </h2>
+            <div class="language-desc">
+            <span class="language-item">
+                <ul>
+                    <li>English </li>
+                    <li>Spanish</li>
+                    <li>Indonesia </li>
+                </ul>
+            </span>    
+            <span class="language-item2">
+                 <div class="col">
+                    <div class="eng-percentage"></div>
+                 </div><br>
+                 <div class="col">
+                    <div class="indo-percentage"></div>
+                </div><br>
+                <div class="col">
+                    <div class="spa-percentage"></div>
+                </div>
+            </span>
+        </div>    
+         </div>
+        </div>
+    </section>
+    <section>
+        <div class="container2">
+         <div class="second-half">
+            <h1>
+                <span>
+                    <i class="fa-solid fa-circle-user"></i>
+                </span>
+                <span>
+                    PROFILE INFO
+                </span>
+            </h1>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illo sint nobis fugiat molestiae iure accusamus repellendus asperiores sapiente voluptatem, eos nemo debitis consequatur rerum?
+            </p>
+            <br><br>
+         
+            <div class="work-experience">
+             <h1>
+                <span>
+                    <i class="fa-solid fa-briefcase"></i>
+                </span>
+                <span>
+                    WORK EXPERIENCE
+                </span>
+             </h1>
+             <br>
+            </div>
+            <div class="work-experience-list">
+               <span>
+                <i class="fa-regular fa-star"></i>
+               </span>
+               <span>
+               <h2>Junior Graphic Designer</h2>
+               <h3>Borcelle Studio</h3>
+               </span>
+               <span>
+                <span>2012-2015</span>
+               </span>
+            </div>
+            <div class="des">
+                <p>
+                 working as graphic designer for 1 year Post Graduate in website & Graphic Designing.Academic Excellence in web Design.
+                </p>
+             </div>
+             <br>
+             <div class="work-experience-list">
+                <span>
+                 <i class="fa-regular fa-star"></i>
+                </span>
+                <span>
+                <h2>Junior Graphic Designer</h2>
+                <h3>Borcelle Studio</h3>
+                </span>
+                <span>
+                 <span>2012-2015</span>
+                </span>
+             </div>
+             <div class="des">
+                 <p>
+                  working as graphic designer for 1 year Post Graduate in website & Graphic Designing.Academic Excellence in web Design.
+                 </p>
+              </div>
+              <br>
+              <div class="skills">
+                <h1>
+                    <span>
+                        <i class="fa-solid fa-snowflake"></i>
+                    </span>
+                    <span>
+                        MY SKILL AND EXPERTISE
+                    </span>
+                </h1>
+                <br> 
+                <div style="display:flex; justify-content:space-between">
+                 <div class="skill-name">
+                 <span>Graphic Design</span>
+                 <div class="skill-column">
+                    <div class="skill-percentage"></div>
+                 </div><br>
+                 </div>
+                 <div class="skill-name">
+                 <span>Web Design</span>
+                 <div class="skill-column">
+                    <div class="skill-percentage"></div>
+                 </div><br>
+               </div>
+              </div>
+              <div style="display:flex; justify-content:space-between">
+             <div class="skill-name">
+                <span>Video Editing</span>
+                <div class="skill-column">
+                    <div class="skill-percentage"></div>
+                 </div><br>
+             </div>
+             <div class="skill-name">
+                <span>Branding</span>
+                <div class="skill-column">
+                    <div class="skill-percentage"></div>
+                 </div><br>
+             </div>
+            </div>
+            <div style="display:flex; justify-content:space-between">
+                <div class="skill-name">
+                   <span>Photography</span>
+                   <div class="skill-column">
+                       <div class="skill-percentage"></div>
+                    </div><br>
+                </div>
+                <div class="skill-name">
+                   <span>SEO & Marketing</span>
+                   <div class="skill-column">
+                       <div class="skill-percentage"></div>
+                    </div><br>
+                </div>
+               </div>
+             </div>
+             <h1>
+                <span>
+                    <i class="fa-solid fa-book"></i>
+                </span>
+                <span>
+                    MY REFERENCES
+                </span>
+            </h1>
+            <br>
+            <div style="display:flex; justify-content:space-between;">
+            <span>
+                <h2>Harumi kobayashi</h2>
+                <h4>
+                Wardiere Inc. / CEO <br>
+                123-456-7890
+                </h4>
+            </span>
+            <span>
+                <h2>Francois Mercer</h2>
+                <h4>
+                Wardiere Inc. / CEO <br>
+                123-456-7890
+                </h4>
+            </span>
+           </div>
+            </div>
+           </div>
+        </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
